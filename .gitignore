@@ -1,0 +1,23 @@
+# Local Dependabot triage artifacts
+.dependabot-merged.json
+.dependabot-prs.tsv
+
+# Python / tooling
+scripts/__pycache__/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor / OS
+.DS_Store
+.cursor/debug-*.log
+*.swp
+*~
+
+# Secrets / local env (never commit)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
